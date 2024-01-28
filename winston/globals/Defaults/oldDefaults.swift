@@ -68,7 +68,7 @@ extension Defaults.Keys {
   static let _showSubsAtTop = Key<Bool>("showSubsAtTop", default: false)
   static let _showTitleAtTop = Key<Bool>("showTitleAtTop", default: true)
   
-  static let _redditAPIUserAgent = Key<String>("redditAPIUserAgent", default: "ios:lo.cafe.winston:v0.1.0 (by /u/Kinark)")
+  static let _redditAPIUserAgent = Key<String>("redditAPIUserAgent", default: "ios:com.sinarabiei.winston:v0.1.0 (by /u/Kinark)")
   
   static let _openLinksInSafari = Key<Bool>("openLinksInSafari", default: true)
   static let _showTestersCelebrationModal = Key<Bool>("showTestersCelebrationModal", default: true)

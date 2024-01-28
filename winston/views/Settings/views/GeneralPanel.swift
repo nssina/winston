@@ -140,7 +140,7 @@ struct GeneralPanel: View {
   }
   
   func clearCache() {
-    (try? DataCache(name: "lo.cafe.winston.datacache"))?.flush()
+    (try? DataCache(name: "com.sinarabiei.winston.datacache"))?.flush()
     Nuke.ImageCache.shared.removeAll()
     Nuke.DataLoader.sharedUrlCache.removeAllCachedResponses()
     (ImagePipeline.shared.configuration.dataLoader as? DataLoader)?.session.configuration.urlCache?.removeAllCachedResponses()

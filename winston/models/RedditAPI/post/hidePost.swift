@@ -8,7 +8,7 @@
 import Foundation
 import Alamofire
 
-private let queue = DispatchQueue(label: "lo.cafe.winston.hide.timer", attributes: .initiallyInactive)
+private let queue = DispatchQueue(label: "com.sinarabiei.winston.hide.timer", attributes: .initiallyInactive)
 
 private class HideDebouncer {
   static var shared = HideDebouncer()
